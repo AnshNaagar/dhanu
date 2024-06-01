@@ -1,4 +1,4 @@
-# Powered By @BikashHalder @AdityaHalder
+# Powered By @Celestial_XD
 
 import sys
 from pyrogram import Client
