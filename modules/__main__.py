@@ -28,7 +28,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("BIKASH_PLAYER").error(
+        LOGGER("OLIVIA_PLAYER").error(
             "No Assistant Clients Vars Defined!.. Exiting Process."
         )
         return
@@ -36,7 +36,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("BIKASH_PLAYER").warning(
+        LOGGER("OLIVIA_PLAYER").warning(
             "No Spotify Vars defined. Your bot won't be able to play spotify queries."
         )
     try:
@@ -61,20 +61,20 @@ async def init():
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("BIKASH_PLAYER").error(
+        LOGGER("OLIVIA_PLAYER").error(
             "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
         )
         sys.exit()
     except:
         pass
     await Aditya.decorators()
-    LOGGER("BIKASH_PLAYER").info("Bikash Player Bot Started Successfully")
+    LOGGER("OLIVIA_PLAYER").info("Olivia Player Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("BIKASH_PLAYER").info("Stopping Bikash Player Bot! GoodBye")
+    LOGGER("OLIVIA_PLAYER").info("Stopping Olivia Player Bot! GoodBye")
 
 
 # Power By @BikashHalder & @AdityaHalder 
