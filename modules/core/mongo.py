@@ -8,15 +8,15 @@ from modules import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://bikash:bikash@bikash.q2fxf3i.mongodb.net/?retryWrites=true&w=majority"
+TEMP_MONGODB = "mongodb+srv://Ansh:Ansh@ansh.yptyojy.mongodb.net/Ansh?retryWrites=true&w=majority"
 
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "No MONGO DB URL found.. Your Bot will work on Bikash's Database"
+        "No MONGO DB URL found.. Your Bot will work on Ansh's Database"
     )
     temp_client = Client(
-        "Bikash",
+        "Ansh",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
