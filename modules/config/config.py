@@ -73,11 +73,8 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 ### Do Not Touch Or Edit Codes After This Line
 ############################
-COMMAND_PREFIXES = []  # Ensure COMMAND_PREFIXES is defined as a list
-OWNER_IDS = []  # Ensure OWNER_IDS is defined as a list
-
 COMMAND_PREFIXES.append('')
-OWNER_IDS.append(1674370115)
+OWNER_ID.append(1439222689)
 ############################
 adminlist = {}
 lyrical = {}
