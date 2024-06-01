@@ -1,8 +1,4 @@
-# Powered By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
-
+# Powered By @Celestial_XD
 from .Apple import AppleAPI
 from .Carbon import CarbonAPI
 from .Resso import RessoAPI
